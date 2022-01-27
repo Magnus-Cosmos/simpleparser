@@ -3,8 +3,8 @@ from setuptools import find_packages
 
 setup(
     name="brparser",
-    version="1.0.0",
-    description="A python wrapper for the osu! api. Includes api v2 support.",
+    version="1.0.1",
+    description="A simple beatmap and replay parser.",
     author="Magnus Cosmos",
     url="https://github.com/Magnus-Cosmos/simpleparser",
     license="MIT",
