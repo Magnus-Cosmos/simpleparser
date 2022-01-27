@@ -1,6 +1,6 @@
-from beatmapparser.models import (Beatmap, Vector2, HitCircleOsu, SliderOsu,
+from .models import (Beatmap, Vector2, HitCircleOsu, SliderOsu,
     SpinnerOsu, ControlPoint)
-from beatmapparser.enums import FileSection, HitObjectType
+from .enums import FileSection, HitObjectType
 from decimal import Decimal
 from numpy import float32
 

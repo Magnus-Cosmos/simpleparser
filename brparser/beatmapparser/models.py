@@ -1,7 +1,7 @@
 from numpy import float32
 from dataclasses import dataclass, field
 from typing import List, Union
-from beatmapparser.utils import clamp
+from .utils import clamp
 
 @dataclass
 class Vector2:

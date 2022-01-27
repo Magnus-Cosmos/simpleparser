@@ -1,8 +1,8 @@
 import lzma
 import struct
-from analyzer.binary import Binary
-from analyzer.models import ReplayEvent
-from analyzer.mod import Mod
+from .binary import Binary
+from .models import ReplayEvent
+from .mod import Mod
 from datetime import datetime, timedelta
 
 class Replay(Binary):

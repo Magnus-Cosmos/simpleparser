@@ -1,4 +1,4 @@
-from analyzer.enums import Key
+from .enums import Key
 from dataclasses import dataclass
 
 @dataclass
