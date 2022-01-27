@@ -9,16 +9,16 @@ def clamp(value, min_, max_):
 
 def apply_mods_to_diff(diff, hr_factor, mods):
     if Mod.EZ in mods:
-        diff = max(0, diff / type(diff)(2))
+        diff = max(0, diff / 2)
     if Mod.HR in mods:
-        diff = min(10, diff * type(diff)(hr_factor))
+        diff = min(10, diff * hr_factor)
     return diff
 
 def apply_mods_to_time(t, mods):
     if Mod.DT in mods:
-        return t / type(t)(1.5)
+        return t / 1.5
     elif Mod.HT in mods:
-        return t / type(t)(0.75)
+        return t / 0.75
     return t
 
 def diff_range(diff, min_, mid, max_, mods):
